@@ -1,0 +1,119 @@
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    font-size: 150%;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h6 {
+    text-align: left;
+    font-size: 15px;
+    border: 1px dotted;
+    background-color: beige;
+    padding: 10px;
+    margin-top: 10px; /* Add some space between sections */
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p1 {
+    text-align: left;
+    padding: 45px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    font-family: sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+
+h3{
+    font-family: sans-serif;
+    color: red;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+a{
+    font-family: sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+    color: rgb(149, 215, 223); /* Change color on hover */
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: flicker 3s infinite alternate;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 15s ease infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.skills {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.skill img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    margin: 0;
+    padding: 0 5px;
+}
+
+.Social a{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
