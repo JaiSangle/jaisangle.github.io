@@ -25,13 +25,6 @@ h6 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-p1 {
-    text-align: left;
-    padding: 45px;
-    color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
 p{
     font-family: sans-serif;
     color: black;
@@ -93,7 +86,7 @@ body {
 
 .skills {
     display: flex;
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start;
     margin-top: 20px;
 }
 
